@@ -8,3 +8,11 @@ Content supports various types of content. As of now, it is `soql` and `sosl`.
 
 # Format
 Content is maintained in `content.json` in json format. Each entry must be added to root object with `category` and list of items.
+
+# Scripts
+
+## Account
+### Accounts created today
+(soql) Shows the list of accounts created today
+
+```select id, name, parent.name, billingstreet, billingcity, billingstate, billingpostalcode from account where createddate = today```
