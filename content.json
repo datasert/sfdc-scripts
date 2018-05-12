@@ -1,0 +1,9 @@
+{
+    "category": "Account",
+    "items": [{
+        "title": "Accounts created today",
+        "description": "Shows the list of accounts created today",
+        "type": "soql",
+        "content": "select id, name, parent.name, billingstreet, billingcity, billingstate, billingpostalcode from account where createddate = today"
+    }]
+}
