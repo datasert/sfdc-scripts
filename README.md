@@ -7,7 +7,7 @@ Hope is that this would be a start point for somebody to use these to build on n
 Content supports various types of content. As of now, it is `soql` and `sosl`.
 
 # Format
-Content is maintained in `content.json` in json format. Each entry must be added to root object with `category` and list of items.
+Content is maintained in `sfdc-scripts.json` in json format. Each entry must be added to root object with `category` and list of items.
 
 # Scripts
 
