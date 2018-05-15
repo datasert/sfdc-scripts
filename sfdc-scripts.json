@@ -4,7 +4,7 @@
             "category": "Account",
             "items": [
                 {
-                    "title": "Accounts created today",
+                    "title": "Accounts created today1",
                     "description": "Shows the list of accounts created today",
                     "type": "soql",
                     "script": "select id, name, parent.name, billingstreet, billingcity, billingstate, billingpostalcode from account where createddate = today"
